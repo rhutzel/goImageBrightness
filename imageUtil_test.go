@@ -10,7 +10,7 @@ import (
 var _ = Describe("ImageUtil", func() {
 	Context("Successful file", func() {
 		It("should determine a mid-level brightness", func() {
-			img, _, err := ImageFromFile("./sampleImageSlightlyBrightGreen.png")
+			img, _, err := ImageFromFile("./testImage.png")
 			if err != nil {
 				Fail("Failed to decode image.")
 			}
